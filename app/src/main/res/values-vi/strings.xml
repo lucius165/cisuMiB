@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">cisuMiB</string>
+    <string name="default_confirm">Bạn có chắc không?</string>
+    <string name="confirm_exit">Bạn có chắc muốn thoát không?</string>
+    <string name="cancel">Đóng</string>
+    <string name="exit">Thoát</string>
+    <string name="ok">OK</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+</resources>

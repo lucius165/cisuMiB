@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">cisuMiB</string>
+    <string name="default_confirm">Are you sure?</string>
+    <string name="confirm_exit">Are you sure you want to exit?</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

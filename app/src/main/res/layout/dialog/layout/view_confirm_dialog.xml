@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:textSize="16sp"
+        android:padding="7dp"
+        android:lineSpacingExtra="20sp"
+        android:background="#26c6da"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/cancel"
+            style="@style/confirmButton"
+            android:layout_marginRight="1.5dp"
+            android:text="@string/exit" />
+
+        <TextView
+            android:id="@+id/yes"
+            style="@style/confirmButton"
+            android:layout_marginLeft="1.5dp"
+            android:text="@string/yes" />
+    </LinearLayout>
+</LinearLayout>
